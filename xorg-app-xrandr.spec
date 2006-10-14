@@ -2,7 +2,7 @@ Summary:	xrandr application
 Summary(pl):	Aplikacja xrandr
 Name:		xorg-app-xrandr
 Version:	1.0.2
-Release:	0.1
+Release:	1
 License:	MIT
 Group:		X11/Applications
 Source0:	http://xorg.freedesktop.org/releases/individual/app/xrandr-%{version}.tar.bz2
@@ -45,5 +45,5 @@ rm -rf $RPM_BUILD_ROOT
 %files
 %defattr(644,root,root,755)
 %doc COPYING ChangeLog
-%attr(755,root,root) %{_bindir}/*
-%{_mandir}/man1/*.1x*
+%attr(755,root,root) %{_bindir}/xrandr
+%{_mandir}/man1/xrandr.1x*
