@@ -1,5 +1,5 @@
 Summary:	xrandr application
-Summary(pl.UTF-8):   Aplikacja xrandr
+Summary(pl.UTF-8):	Aplikacja xrandr
 Name:		xorg-app-xrandr
 Version:	1.0.2
 Release:	1
