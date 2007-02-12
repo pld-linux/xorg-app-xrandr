@@ -1,5 +1,5 @@
 Summary:	xrandr application
-Summary(pl):	Aplikacja xrandr
+Summary(pl.UTF-8):   Aplikacja xrandr
 Name:		xorg-app-xrandr
 Version:	1.0.2
 Release:	1
@@ -18,7 +18,7 @@ BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 %description
 xrandr application.
 
-%description -l pl
+%description -l pl.UTF-8
 Aplikacja xrandr.
 
 %prep
