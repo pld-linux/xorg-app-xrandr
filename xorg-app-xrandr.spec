@@ -1,12 +1,12 @@
 Summary:	xrandr application
 Summary(pl.UTF-8):	Aplikacja xrandr
 Name:		xorg-app-xrandr
-Version:	1.2.0
+Version:	1.2.1
 Release:	1
 License:	MIT
 Group:		X11/Applications
 Source0:	http://xorg.freedesktop.org/releases/individual/app/xrandr-%{version}.tar.bz2
-# Source0-md5:	9e74e6919cf731ec10ce26fd6a4483fa
+# Source0-md5:	4cc64c314e1cc2509b83198aaf3f73c2
 URL:		http://xorg.freedesktop.org/
 BuildRequires:	autoconf >= 2.57
 BuildRequires:	automake
