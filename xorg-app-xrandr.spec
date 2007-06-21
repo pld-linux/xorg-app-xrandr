@@ -1,5 +1,5 @@
-Summary:	xrandr application
-Summary(pl.UTF-8):	Aplikacja xrandr
+Summary:	xrandr application - command-line interface to RandR extension
+Summary(pl.UTF-8):	Aplikacja xrandr - interfejs linii poleceń do rozszerzenia RandR
 Name:		xorg-app-xrandr
 Version:	1.2.1
 Release:	1
@@ -17,10 +17,12 @@ Requires:	xorg-lib-libXrandr >= 1.2.0
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
 %description
-xrandr application.
+xrandr is used to set the size, orientation and/or reflection of the
+outputs for a screen.
 
 %description -l pl.UTF-8
-Aplikacja xrandr.
+xrandr służy do ustawiania rozmiaru, orientacji i/lub odbicia wyjścia
+ekranu.
 
 %prep
 %setup -q -n xrandr-%{version}
