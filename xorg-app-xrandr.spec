@@ -12,8 +12,8 @@ BuildRequires:	autoconf >= 2.57
 BuildRequires:	automake
 BuildRequires:	pkgconfig >= 1:0.19
 BuildRequires:	xorg-lib-libXrandr-devel >= 1.2.99.3
-BuildRequires:	xorg-util-util-macros >= 0.99.2
-Requires:	xorg-lib-libXrandr >= 1.2.0
+BuildRequires:	xorg-util-util-macros >= 1.2
+Requires:	xorg-lib-libXrandr >= 1.2.99.3
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
 %description
