@@ -11,9 +11,9 @@ URL:		http://xorg.freedesktop.org/
 BuildRequires:	autoconf >= 2.57
 BuildRequires:	automake
 BuildRequires:	pkgconfig >= 1:0.19
-BuildRequires:	xorg-lib-libXrandr-devel >= 1.2.99.3
+BuildRequires:	xorg-lib-libXrandr-devel >= 1.3
 BuildRequires:	xorg-util-util-macros >= 1.2
-Requires:	xorg-lib-libXrandr >= 1.2.99.3
+Requires:	xorg-lib-libXrandr >= 1.3
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
 %description
