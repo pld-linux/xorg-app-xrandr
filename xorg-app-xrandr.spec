@@ -1,12 +1,12 @@
 Summary:	xrandr application - command-line interface to RandR extension
 Summary(pl.UTF-8):	Aplikacja xrandr - interfejs linii poleceń do rozszerzenia RandR
 Name:		xorg-app-xrandr
-Version:	1.4.0
+Version:	1.4.1
 Release:	1
 License:	MIT
 Group:		X11/Applications
 Source0:	http://xorg.freedesktop.org/releases/individual/app/xrandr-%{version}.tar.bz2
-# Source0-md5:	4d68317238bb14a33c0e419233d57d87
+# Source0-md5:	52c3de0297bf45be6a189dc2e0515638
 URL:		http://xorg.freedesktop.org/
 BuildRequires:	autoconf >= 2.60
 BuildRequires:	automake
