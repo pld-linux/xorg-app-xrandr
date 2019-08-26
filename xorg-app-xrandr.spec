@@ -5,11 +5,11 @@ Version:	1.5.1
 Release:	1
 License:	MIT
 Group:		X11/Applications
-Source0:	http://xorg.freedesktop.org/releases/individual/app/xrandr-%{version}.tar.xz
+Source0:	https://xorg.freedesktop.org/releases/individual/app/xrandr-%{version}.tar.xz
 # Source0-md5:	fe40f7a4fd39dd3a02248d3e0b1972e4
-URL:		http://xorg.freedesktop.org/
+URL:		https://xorg.freedesktop.org/
 BuildRequires:	autoconf >= 2.60
-BuildRequires:	automake
+BuildRequires:	automake >= 1:1.11
 BuildRequires:	pkgconfig >= 1:0.19
 BuildRequires:	sed >= 4.0
 BuildRequires:	tar >= 1:1.22
